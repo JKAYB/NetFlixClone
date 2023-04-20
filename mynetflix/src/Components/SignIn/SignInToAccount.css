@@ -1,0 +1,462 @@
+.page2content{
+    width:100vw;
+    height: 78vw;
+    background-image: url(https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg);
+    
+}
+
+.navlogopage2{
+    height: 37px;
+    width: auto;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+
+.headReturn{
+    color: rgb(132, 130, 130);
+    margin-top: 70px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    margin-left: 65px;
+
+}
+
+
+.return{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+.return:hover{
+    text-decoration:underline ;
+    transform: scale(1.04 );
+}
+
+.recaptcha{
+    font-size: 13px;
+    color: rgb(132, 130, 130);
+    font-weight: 300;
+    margin-left: 65px;
+    margin-top: 20px;
+    letter-spacing: 0.6px;  
+}
+
+.fade3{
+    background-color: rgba(2, 2, 2, 0.468);
+    min-height: 78vw;
+
+}
+.contentbox{
+    margin-top: 35px;
+    height: 650px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page2signin{
+    width: 430px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.833);
+    height: inherit;
+    border-radius: 4px;
+
+}
+
+.page2head1{
+    color: white;
+    padding-top: 58px;
+    padding-left: 60px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+
+.inputpage2{
+    font-size: 18px;
+    margin-left: 60px;
+    padding-left: 20px;
+    margin-top: 50px;
+    padding-top: 15px;
+    background-color: rgb(48, 48, 48);
+    height:35px;
+    width: 290px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    color: white;
+    display: flex;
+    outline: none;
+
+}
+
+.placeholderpage2{
+    color: rgb(161, 160, 160);
+    font-size: 17px;
+    margin-left: 80px;
+    position: absolute;
+    pointer-events: none;
+    transform: translateY(-35px);
+    transition: 250ms ease;
+}
+
+.inputpage2:focus+.placeholderpage2,
+.inputpage2:not(:placeholder-shown)+.placeholderpage2
+{
+    transform:  translateX(-21%)translateY(-48px) scale(0.6) ;
+}
+.inputpage2:focus{
+    background-color: rgb(56, 56, 56);
+}
+
+.password{
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-top: 15px;
+    background-color: rgb(48, 48, 48);
+    height:35px;
+    width: 290px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    color: white;
+    display: flex;
+    margin-left: 60px;
+    outline: none;
+
+}
+
+.passwordplaceholder{
+    color: rgb(161, 160, 160);
+    font-size: 17px;
+   pointer-events: none;
+   margin-left: 80px;
+   transform: translateY(-35px);
+   position: absolute;
+   transition: 250ms ease;
+}
+
+.password:focus+.passwordplaceholder,
+.password:not(:placeholder-shown)+.passwordplaceholder
+{
+    transform:  translateX(-21%)translateY(-48px) scale(0.6) ;
+}
+.password:focus{
+    background-color: rgb(56, 56, 56);
+}
+
+.signinacc{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(184, 0, 0);
+    height:48px;
+    width: 310px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.dark{
+    margin-top: 90px;
+    height :19.6vw;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+.grid-container-page2{
+    font-size: 13px;
+    margin-left: 18.5vw;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 110px;
+    row-gap: 20px;
+    padding-top: 40px;
+
+}
+.contact-page2{
+    padding-top: 50px;
+    margin-left: 18.5vw;
+    color: rgb(95, 95, 95);
+    font-size: 16px
+}
+.contactnum-page2{
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+.contactnum-page2:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:900px ) and (orientation:landscape){
+
+    .page2content{
+        width:100vw;
+        height: 100%;
+    }
+    .dark{
+        margin-top: 90px;
+        height :250px;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.806);
+    }
+    .grid-container-page2{
+        font-size: 13px;
+        margin-left: 10%;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 28vh;
+        row-gap: 10%;
+        padding-top: 40px;
+    
+    }
+
+    .contact-page2{
+        padding-top: 50px;
+        margin-left: 10%;
+        color: rgb(95, 95, 95);
+        font-size: 16px
+    }
+    .fade3{
+        background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.674),rgb(0, 0, 0));
+        height: 90%;
+    
+    }
+    .page2signin{
+        border: 1px solid rgb(88, 88, 88);
+        background-color: rgba(0, 0, 0, 0.833);
+        border-radius: 4px;
+    
+    }
+
+}
+
+@media only screen and (max-width:500px ){
+
+    .page2content{
+        height: 100vh;
+        background-image: url(https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg);
+        background-repeat: no-repeat;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .navlogopage2{
+        height: 25px;
+        width: auto;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .return{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-top:25px;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .contentbox{
+        margin-top: 18%;
+        height: 450px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dark{
+        margin-top: 50%;
+        height :14vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.806);
+    }
+    .fade3{
+        background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.674),rgb(0, 0, 0));
+        height: 100vh;
+    
+    }
+
+    .grid-container-page2{
+        font-size: 8px;
+        margin-left: 10%;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 20px;
+        padding-top: 10px;
+    }
+
+    .page2signin{
+        width: 80%;
+        border: 1px solid rgb(88, 88, 88);
+        background-color: rgba(0, 0, 0, 0.833);
+        height: inherit;
+        border-radius: 4px;
+    
+    }
+    .page2head1{
+        color: white;
+        padding-top: 10%;
+        padding-left: 15%;
+        font-size: 25px;
+        font-weight: 500;
+        font-family:sans-serif;
+    }
+    
+    .inputpage2{
+        font-size: 18px;
+        margin-left: 10%;
+        padding-left: 20px;
+        margin-top: 30px;
+        padding-top: 15px;
+        background-color: rgb(48, 48, 48);
+        height:35px;
+        width: 75%;
+        border: none;
+        border-radius: 4px;
+        position: relative;
+        color: white;
+        display: flex;
+        outline: none;
+    
+    }
+    
+    .placeholderpage2{
+        color: rgb(161, 160, 160);
+        font-size: 17px;
+        margin-left: 13%;
+        position: absolute;
+        pointer-events: none;
+        transform: translateY(-35px);
+        transition: 250ms ease;
+    }
+    
+    .inputpage2:focus+.placeholderpage2,
+    .inputpage2:not(:placeholder-shown)+.placeholderpage2
+    {
+        transform:  translateX(-21%)translateY(-48px) scale(0.6) ;
+    }
+    .inputpage2:focus{
+        background-color: rgb(56, 56, 56);
+    }
+    
+    .password{
+        font-size: 18px;
+        padding-left: 20px;
+        margin-top: 20px;
+        padding-top: 15px;
+        background-color: rgb(48, 48, 48);
+        height:35px;
+        width: 75%;
+        border: none;
+        border-radius: 4px;
+        position: relative;
+        color: white;
+        display: flex;
+        margin-left: 10%;
+        outline: none;
+    
+    }
+    
+    .passwordplaceholder{
+        color: rgb(161, 160, 160);
+        font-size: 17px;
+        pointer-events: none;
+        margin-left: 13%;
+        transform: translateY(-35px);
+        position: absolute;
+        transition: 250ms ease;
+    }
+    
+    .password:focus+.passwordplaceholder,
+    .password:not(:placeholder-shown)+.passwordplaceholder
+    {
+        transform:  translateX(-21%)translateY(-48px) scale(0.6) ;
+    }
+    .password:focus{
+        background-color: rgb(56, 56, 56);
+    }
+    .recaptcha{
+        font-size: 10px;
+        color: rgb(132, 130, 130);
+        font-weight: 300;
+        margin-left: 10%;
+        margin-top: 10px;
+        letter-spacing: 0.2px;  
+    }
+
+    .headReturn{
+        color: rgb(132, 130, 130);
+        margin-top: 25px;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+        margin-left: 10%;
+    
+    }
+    
+    .signinacc{
+        font-size: 18px;
+        margin-left: 11%;
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(184, 0, 0);
+        height:48px;
+        width: 80%;
+        border: none;
+        border-radius: 4px;
+        position: relative;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    
+    .dark{
+        margin-top: 20%;
+        height : 200px;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .grid-container-page2{
+        font-size: 8px;
+        margin-left: 10%;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 35px;
+        row-gap: 10px;
+        padding-top: 40px;
+    
+    }
+    .contact-page2{
+        padding-top: 50px;
+        margin-left: 10%;
+        color: rgb(95, 95, 95);
+        font-size: 16px
+    }
+    .contactnum-page2{
+        color: rgb(95, 95, 95);
+        text-decoration: none;
+    }
+    .contactnum-page2:hover{
+        text-decoration: underline;
+    }
+}

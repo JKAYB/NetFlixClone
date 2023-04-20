@@ -1,0 +1,12 @@
+.line{
+    height: 9px;
+    background-color: rgb(43, 43, 43);
+}
+
+@media only screen and (max-width:500px){
+
+.line{
+    height: 1px;
+    background-color: rgb(43, 43, 43);
+}
+}

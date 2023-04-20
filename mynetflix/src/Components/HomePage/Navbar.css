@@ -1,0 +1,257 @@
+.navbar{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    height:65px;
+    color: white;
+    padding-left: 20px;
+    background-color: black;
+    top:0px;
+    transition: 50ms ease;
+
+}
+
+.navbar-hidden{
+    top: -80px;
+}
+
+.menu{
+    color: white;
+    padding-top: 23px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+    text-decoration: none;
+    transition: 250ms linear;
+}
+
+
+.menu:hover{
+    color:red;
+    transform: scale(1.1)
+    
+}
+
+
+.navlogo{
+    padding-top: 20px;
+    width: 100px;
+    padding-left: 20px;
+    transition: 50ms linear;
+}
+
+.navlogo:hover{
+    transform: scale(1.04);
+    
+}
+
+
+.avatar{
+    display: block;
+    margin-top: 0.8vw;
+    margin-left: 54vw;
+    height :45px;
+    position: relative;
+    border: none;
+    width: 45px;
+    cursor: pointer;
+    background-size: contain;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png");
+}
+
+.avatar:hover{
+    transform: scale(1.08);
+    transition: 50ms ease-in-out;
+}
+
+
+.options{
+    position: absolute;
+    margin-left: 88vw;
+    font-size: 14px;
+    margin-top: 65px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    height:180px;
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.758);
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    font-family: sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+ 
+}
+
+.icon{
+    margin-top:10px;
+    margin-left: 20px;
+    width:100px;
+}
+.icon:hover{
+    transform: scale(1.08);
+
+}
+
+
+.userLoggedIn{
+    padding-left: 25px;
+    width: 90px;
+    margin-top:30px;
+    overflow: hidden;
+
+}
+
+.settings{
+    margin-top: 30px;
+    width:100%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    height: 30px;
+}
+.settings:hover{
+    background-color: rgba(36, 36, 36, 0.56);
+    border: 0.8px rgba(124, 124, 124, 0.557) solid;
+    border-radius: 4px ;
+}
+
+.Signout{
+    width:100%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    height: 30px;
+    bottom:10px;
+}
+.Signout:hover{
+    background-color: rgba(255, 0, 0, 0.799);
+    border: 0.8px rgba(0, 0, 0, 0.296) solid;
+    border-radius: 4px ;
+}
+
+
+@media only screen and (max-width:500px ){
+
+    .navbar{
+        position: fixed;
+        width: 100vw;
+        display: flex;
+        height:70px;
+        padding-left: 0px;
+        color: white;
+        background-color: black;
+        top:0px;
+        transition: 0.3s ease;
+    
+    }
+    
+    .navbar-hidden{
+        top: -80px;
+    }
+    
+    .menu{
+        color: white;
+        padding-top: 23px;
+        display: flex;
+        margin-left: 45px;
+        justify-content: space-between;
+        text-decoration: none;
+        transition: 50ms linear;
+        font-size: 12px;
+    }
+
+    
+    
+    .navlogo{
+       display: none;
+    }
+    
+    
+    
+    
+    .avatar{
+        display: block;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 45px;
+        height :45px;
+        position: relative;
+        border: none;
+        width: 45px;
+        cursor: pointer;
+        background-size: contain;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png");
+    }
+    
+    .avatar:hover{
+        transform: scale(1.08);
+        transition: 50ms ease-in-out;
+    }
+    
+    
+    .options{
+        position: absolute;
+        margin-left: 210px;
+        font-size: 14px;
+        margin-top: 65px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        height:180px;
+        width: 140px;
+        background-color: rgba(0, 0, 0, 0.758);
+        border: 1px solid rgba(0, 0, 0, 0.47);
+        font-family: sans-serif;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;
+     
+    }
+    
+    .icon{
+        margin-top:10px;
+        margin-left: 20px;
+        width:100px;
+    }
+    .icon:hover{
+        transform: scale(1.08);
+    
+    }
+    
+    
+    .userLoggedIn{
+        padding-left: 25px;
+        width: 90px;
+        margin-top:30px;
+        overflow: hidden;
+    
+    }
+    
+    .settings{
+        margin-top: 30px;
+        width:100%;
+        border: none;
+        color: white;
+        background-color: transparent;
+        height: 30px;
+    }
+    .settings:hover{
+        background-color: rgba(36, 36, 36, 0.56);
+        border: 0.8px rgba(124, 124, 124, 0.557) solid;
+        border-radius: 4px ;
+    }
+    
+    .Signout{
+        width:100%;
+        border: none;
+        color: white;
+        background-color: transparent;
+        height: 30px;
+        bottom:10px;
+    }
+    .Signout:hover{
+        background-color: rgba(255, 0, 0, 0.799);
+        border: 0.8px rgba(0, 0, 0, 0.296) solid;
+        border-radius: 4px ;
+    }
+}

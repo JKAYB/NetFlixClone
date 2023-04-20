@@ -1,0 +1,410 @@
+.register{
+    max-width: 100vw;
+    height:100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.nflogo{
+    margin-left: 44px;
+    margin-top: 24px;
+    width: 170px;
+}
+
+.registerNav{
+    width: 100vw;
+    height : 95px;
+    position: relative;
+}
+
+.signin-reg{
+    float: right;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right:50px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+}
+.signin-reg:hover{
+    text-decoration:underline ;
+}
+.smallLine{
+        width:100vw;
+        height:1px;
+        background-color: rgba(164, 164, 164, 0.515);
+        margin-top: 20px;
+}
+
+
+.content-reg{
+    height: 42vw;
+    width :100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents-reg{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    height: 39vw;
+    font-family: sans-serif;
+
+}
+
+.heading-register {
+    font-weight: 600;
+}
+
+.mini-head{
+    margin-top: 10px;
+font-weight: 300;
+}
+.reg-email{
+    position: relative;
+    margin-top: 25px;
+    height: 60px;
+    padding-left: 20px;
+    border: 1.5px solid #000000;
+    outline: none;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.reg-email:focus{
+    border-color: #02a702;
+}
+.emailPlaceholder{
+    padding-left: 20px;
+    position: relative;
+    transform: translateY(-38px);
+    pointer-events: none;
+    transition: 250ms ease;
+
+}
+
+.reg-email:focus+.emailPlaceholder,.reg-email:not(:placeholder-shown)+.emailPlaceholder{
+    transform:  translateX(-18.2%)translateY(-60px) scale(0.6) ;
+    color: #02a702;
+}
+
+.reg-password{
+    margin-top: 25px;
+    height:60px;
+    padding-left: 20px;
+    outline: none;
+    border: 1.5px solid #000000;
+    border-radius: 2px;
+    font-size: 18px;
+
+}
+.reg-password:focus{
+    border-color: #02a702;
+}
+
+.passPlaceholder{
+    padding-left: 20px;
+    position: relative;
+    transform: translateY(-38px);
+    pointer-events: none;
+    transition: 250ms ease;
+
+}
+
+.reg-password:focus+.passPlaceholder,.reg-password:not(:placeholder-shown)+.passPlaceholder{
+    transform:  translateX(-18.2%)translateY(-60px) scale(0.6) ;
+    color: #02a702;
+}
+
+.reg-submit{
+    margin-top: 40px;
+    height:65px;
+    border:none;
+    background-color: rgb(250, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.reg-submit:active{
+    background-color: rgb(224, 0, 0);
+
+}
+
+@media only screen and (max-width:900px ) and (orientation:landscape){
+
+    .nflogo{
+        margin-left: 44px;
+        margin-top: 24px;
+        width: 120px;
+    }
+    .signin-reg{
+        float: right;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-right:50px;
+        font-family: sans-serif;
+        text-decoration: none;
+        background-color: white;
+        border: none;
+    }
+    .content-reg{
+        height: 500px;
+        width :100vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+
+    }
+    
+    .contents-reg{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 36vw;
+        height: 470px;
+        font-family: sans-serif;
+    
+    }
+    .heading-register {
+        padding-top: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    .mini-head{
+        margin-top: 10px;
+        font-weight: 300;
+    }
+    .reg-email{
+        position: relative;
+        margin-top: 25px;
+        height: 50px;
+        padding-top: 10px;
+        padding-left: 20px;
+        border: 1.5px solid #000000;
+        outline: none;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    
+    .reg-email:focus{
+        border-color: #02a702;
+    }
+    .emailPlaceholder{
+        padding-left: 20px;
+        position: relative;
+        transform: translateY(-30px);
+        pointer-events: none;
+        transition: 250ms ease;
+    
+    }
+    
+    .reg-email:focus+.emailPlaceholder,.reg-email:not(:placeholder-shown)+.emailPlaceholder{
+        transform:  translateX(-16.9%)translateY(-50px) scale(0.6) ;
+        color: #02a702;
+    }
+    
+    .reg-password{
+        margin-top: 10px;
+        height:50px;
+        padding-top: 10px;
+        padding-left: 20px;
+        outline: none;
+        border: 1.5px solid #000000;
+        border-radius: 2px;
+        font-size: 18px;
+    
+    }
+    .reg-password:focus{
+        border-color: #02a702;
+    }
+    
+    .passPlaceholder{
+        padding-left: 20px;
+        position: relative;
+        transform: translateY(-30px);
+        pointer-events: none;
+        transition: 250ms ease;
+    
+    }
+    
+    .reg-password:focus+.passPlaceholder,.reg-password:not(:placeholder-shown)+.passPlaceholder{
+        transform:  translateX(-16.9%)translateY(-50px) scale(0.6) ;
+        color: #02a702;
+    }
+    
+    .reg-submit{
+        margin-top: 30px;
+        height:65px;
+        border:none;
+        background-color: rgb(250, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 4px;
+    }
+    .reg-submit:active{
+        background-color: rgb(224, 0, 0);
+    
+    }
+}
+
+
+@media only screen and (max-width:500px){
+
+    .nflogo{
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 25%;
+    }
+    
+    .registerNav{
+        width: 100vw;
+        height : 7%;
+        position: relative;
+    }
+    
+    .signin-reg{
+        float: right;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-top: 5%;
+        margin-right:3%;
+        font-family: sans-serif;
+        text-decoration: none;
+        background-color: white;
+        border: none;
+    }
+
+    .signin-reg:hover{
+        text-decoration:underline ;
+    }
+
+    .smallLine{
+            width:100vw;
+            height:1px;
+            background-color: rgba(164, 164, 164, 0.515);
+            margin-top: 6%;
+    }
+    
+    
+    .content-reg{
+        height: 75%;
+        width :100vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contents-reg{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 60vh;
+        font-family: sans-serif;
+
+    }
+    
+    .heading-register {
+        font-weight: 600;
+    }
+    
+    .mini-head{
+        font-size: 17px;
+        margin-top: 10px;
+        font-weight: 300;
+    }
+    .reg-email{
+        position: relative;
+        margin-top: 10%;
+        height: 70px;
+        padding-top: 10px;
+        padding-left: 20px;
+        border: 1.5px solid #000000;
+        outline: none;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    
+    .reg-email:focus{
+        border-color: #02a702;
+    }
+    .emailPlaceholder{
+        font-size: 13px;
+        padding-left: 20px;
+        position: relative;
+        transform: translateY(-30px);
+        pointer-events: none;
+        transition: 250ms ease;
+    
+    }
+    
+    .reg-email:focus+.emailPlaceholder,.reg-email:not(:placeholder-shown)+.emailPlaceholder{
+        transform:  translateX(-17%)translateY(-54px) scale(0.6) ;
+        color: #02a702;
+    }
+    
+    .reg-password{
+        margin-top: 25px;
+        height: 70px;
+        padding-left: 20px;
+        padding-top: 10px;
+
+        outline: none;
+        border: 1.5px solid #000000;
+        border-radius: 2px;
+        font-size: 18px;
+    
+    }
+    .reg-password:focus{
+        border-color: #02a702;
+    }
+    
+    .passPlaceholder{
+        font-size: 13px;
+        padding-left: 20px;
+        position: relative;
+        transform: translateY(-30px);
+        pointer-events: none;
+        transition: 250ms ease;
+    
+    }
+    
+    .reg-password:focus+.passPlaceholder,.reg-password:not(:placeholder-shown)+.passPlaceholder{
+        transform:  translateX(-17%)translateY(-54px) scale(0.6) ;
+        color: #02a702;
+    }
+    
+    .reg-submit{
+        margin-top: 40px;
+        height:20%;
+        border:none;
+        background-color: rgb(250, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 4px;
+    
+    }
+    .reg-submit:active{
+        background-color: rgb(224, 0, 0);
+    
+    }
+    
+
+}

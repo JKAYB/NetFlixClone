@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+.navbar1{
+    padding-top: 28px;
+    width: 100vw;
+    padding-bottom: 25px;
+}
+
+.Clone{
+
+    border: 0.9px solid red;
+
+}
+
+.backgroundLogin{
+    height: 48vw;
+    width: 100vw;
+    background-position: center;
+    background-size:contain;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.752),rgba(0, 0, 0, 0.600),rgba(17, 17, 17, 0.752)), url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+}
+
+.navlogo1{
+    width: 135px;
+    padding-left: 55px;
+    transition: 50ms linear;
+    cursor: pointer;
+
+}
+.navlogo:hover{
+    transform: scale(1.04);  
+}
+.signin-login{
+    float: right;
+    margin-right: 55px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom :8px;
+    padding-top : 8px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(225, 0, 0);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.signin:hover{
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+.signin-login:active {
+    background-color: rgba(177, 1, 1, 0.947) !important;
+    border: 1px solid rgba(88, 0, 0, 0.947)  !important;
+    
+ }
+.dropdownmain{
+    float: right;
+    margin-right:35px;
+    position: relative;
+}
+
+.dropdownbuttonmain{
+    min-width: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom :8px;
+    padding-top : 8px;
+    max-height: 35px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    border: 0.5px white solid;
+    background-color: black;
+
+}
+
+.dropdownbuttonmain:hover{
+    color:black;
+    background-color: white;
+}
+
+.dropdown-menumain{
+    position: absolute;
+    top:40px;
+    border: solid rgb(98, 98, 98) 0.5px;;
+    border-radius: 4px;
+    width: 90px;
+    height : 58px;
+    display:none;
+    background-color: rgb(28, 28, 28);
+}
+
+
+
+.dropdown-lang1main{
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 6px;
+    padding-left: 17px;
+    padding-right: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    background-color: rgb(28, 28, 28);
+    border: none;
+    border-radius: 4px;
+    height:25px;
+
+}
+.dropdown-lang1main:hover{
+    background-color: rgb(0, 162, 255);
+    border-radius: 4px;
+     
+}
+.dropdown-lang2main{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 6px;
+    padding-left: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    padding-right: 39px;
+    background-color: rgb(28, 28, 28);
+    border: none;
+    border-radius: 4px;
+    height:25px;
+    margin-bottom: 4px;
+
+}
+
+.dropdown-lang2main:hover{
+    background-color: rgb(0, 162, 255);
+    border-radius: 4px;
+
+}
+
+.content-login{
+    margin-top: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.heading1{
+    padding-left: 10px;
+    padding-bottom: 12px;
+    font-size: 47px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+
+.heading2{
+    font-size: 25px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:900px ) and (orientation:landscape){
+    .navbar1{
+        padding-top: 3%;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .backgroundLogin{
+        min-height: 500px;
+        width: 100%;
+        background-position: center;
+        background-size:contain;
+        background: linear-gradient(180deg,rgba(0, 0, 0, 0.752),rgba(0, 0, 0, 0.600),rgba(17, 17, 17, 0.752)), url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    }
+
+    .navlogo1{
+        width: 13%;
+        padding-left: 5%;
+        transition: 50ms linear;
+        cursor: pointer;
+
+    }
+    .dropdownmain{
+        display: none;
+    }
+
+    .content-login{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .signin-login{
+        float: right;
+        margin-right: 5%;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom :5px;
+        padding-top : 5px;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(225, 0, 0);
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+    }
+    .heading1{
+        padding-left: 4%;
+        padding-bottom: 12px;
+        font-size: 30px;
+        font-weight: 550;
+        letter-spacing: 1px;
+    }
+    
+    
+    .heading2{
+        font-size: 17px;
+        padding-top: 2px;
+        padding-bottom: 20px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+
+}
+
+@media only screen and (max-width:500px){
+    .navbar1{
+        padding-top: 3%;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .backgroundLogin{
+        min-height: 40vh;
+        width: 100%;
+        background-position: center;
+        background-size:contain;
+        background: linear-gradient(180deg,rgba(0, 0, 0, 0.752),rgba(0, 0, 0, 0.600),rgba(17, 17, 17, 0.752)), url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    }
+
+    .navlogo1{
+        width: 25%;
+        padding-left: 5%;
+        transition: 50ms linear;
+        cursor: pointer;
+
+    }
+    .dropdownmain{
+        display: none;
+    }
+
+    .content-login{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .signin-login{
+        float: right;
+        margin-right: 5%;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom :5px;
+        padding-top : 5px;
+        border-radius: 2px;
+        color: white;
+        background-color: rgb(225, 0, 0);
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+    }
+    .heading1{
+        padding-left: 4%;
+        padding-bottom: 12px;
+        font-size: 27px;
+        font-weight: 550;
+        letter-spacing: 1px;
+    }
+    
+    
+    .heading2{
+        font-size: 15px;
+        padding-top: 2px;
+        padding-bottom: 20px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+}
+
+
+
+

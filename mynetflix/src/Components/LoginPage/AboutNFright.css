@@ -1,0 +1,137 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+.containerRight{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+.container1Right{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+
+}
+
+.container2Right{
+    margin-left: 50%;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+
+}
+.imageRight{
+    width:100%;
+    margin-top: 8%;
+    margin-left: 10%;
+    
+    background-repeat: no-repeat;
+}
+
+.head1Right{
+    color: white;
+    width : 80%;
+    padding-top: 14%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head2Right{
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 5%;
+
+}
+
+@media only screen and (max-width:900px ) and (orientation:landscape){
+    .containerRight{
+        background-color: rgb(0, 0, 0);
+        min-height: 400px;
+        position: relative;
+        width: 100%;
+    }
+    .head1Right{
+        color: white;
+        padding-top: 18%;
+        padding-left: 15%;
+        font-size: 35px;
+        width: 70%;
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .head2Right{
+        color: white;
+        padding-top: 20px;
+        font-size: 18px;
+        padding-left: 15%;
+        width: 70%;
+        font-weight: 400;
+
+    }
+    .imageRight{
+        height:100%;
+        width: 100%;
+        transform: scale(0.7);
+        margin-left: 0px;
+        background-repeat: no-repeat;
+    
+    }
+    .container1Right{
+        width: 50%;
+    }
+
+    .container2Right{
+        width: 50%;
+        margin-left: 50%;
+    }
+
+}
+    
+@media only screen and (max-width:500px){
+    .containerRight{
+        background-color: rgb(0, 0, 0);
+        min-height: 30vh;
+        position: relative;
+        width: 100%;
+    }
+    .head1Right{
+        color: white;
+        padding-top: 15%;
+        padding-left: 15%;
+        font-size: 25px;
+        width: 70%;
+
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .head2Right{
+        color: white;
+        padding-top: 20px;
+        font-size: 12px;
+        padding-left: 15%;
+        width: 70%;
+        font-weight: 400;
+
+    }
+    .imageRight{
+       display: none;
+    }
+    .container1Right{
+        display: none;
+    }
+    .container2Right{
+     width: 100%;
+     margin-left: 0px;
+    }
+    
+}
